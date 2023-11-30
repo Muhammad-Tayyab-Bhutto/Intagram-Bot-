@@ -19,8 +19,8 @@ username_input = browser.find_element("xpath", "//input[@name='username']")
 password_input = browser.find_element("xpath", "//input[@name='password']")
 
 # credentials
-username = 'ashiambreen32'
-password = 'raeela123'
+username = 'your_account_user_name'
+password = 'your_account_password'
 target = 'muhammad_tayyab_bhutto'
 
 username_input.send_keys(username)
